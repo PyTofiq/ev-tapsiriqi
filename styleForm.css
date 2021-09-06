@@ -1,0 +1,14 @@
+.redStar{
+    color: red;
+}
+
+.ten-chars {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#submit-btn{
+    border-color: blue;
+}

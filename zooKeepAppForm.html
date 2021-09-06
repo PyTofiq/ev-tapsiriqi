@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+<body>
+    
+
+
+
+
+
+
+    <table cellspacing="0">
+
+        <tr>
+
+            <td>
+                <h1>Zoo Keeper Application Form</h1>
+                <p>Please complete the form. Mandatory fields are marked with a <span class="redStar">*</span></p>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                
+                <fieldset>
+        
+                    <legend>Contact Details</legend>
+            
+            
+                    <table>
+            
+            
+                        <tr>
+                            <td>
+                                <label for="name">Name<span class="redStar">*</span></label>
+                            </td>
+                            <td>
+                                <input type="text" name="ad" id="name">                    
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="telephone">Telephone</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="telefon" id="telephone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email<span class="redStar">*</span></label>
+                            </td>
+                            <td>
+                                <input type="email" name="mail" id="email">
+                            </td>
+                        </tr>
+            
+            
+                    </table>
+            
+            
+            
+                </fieldset>
+            
+                
+
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <fieldset>
+            
+                    <legend>Personal Information</legend>
+            
+            
+                    <table>
+            
+                        <tr>
+                            <td>
+                                <label for="age"><span class="redStar">*</span>Age</label>
+                            </td>
+                            <td>
+                                <input type="number" name="yas" id="age">
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="gender">Gender</label>
+                            </td>
+                            <td>
+                                <select name="gender" id="gender">
+            
+                                    <option value="0">Male</option>
+                                    <option value="1" selected>Female</option>
+                        
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+            
+                            <td>
+                                <label for="question">When did you first know you wanted to be a zoo-keeper?</label>
+                            </td>
+            
+                            <td>
+                                <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                            </td>
+            
+                        </tr>
+            
+                    </table>
+            
+            
+            
+            
+            
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <fieldset>
+            
+                    <legend>Pick Your Favorite Animals </legend>
+            
+            
+                    <table cellspacing=10>
+            
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="zebra" id="zebra">
+                                <label for="zebra">Zebra</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="cat" id="cat">
+                                <label for="cat">Cat</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="anaconda" id="anaconda">
+                                <label for="anaconda">Anaconda</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="human" id="human">
+                                <label for="human">Human</label>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="elephant" id="elephant">
+                                <label for="elephant">Elephant</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="wildbeest" id="wildbeest">
+                                <label for="wildbeest">Wildbeest</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="pigeon" id="pigeon">
+                                <label for="pigeon">Pigeon</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="crab" id="crab">
+                                <label for="crab">Crab</label>
+                            </td>
+                        </tr>
+            
+                    </table>
+            
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+
+            <td>
+
+                <button id="submit-btn" type="submit">Submit Application</button>
+                
+            </td>
+
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
